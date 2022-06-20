@@ -12,7 +12,7 @@ export class Vault {
     salt: string;
 }
 
-export const vaultModel = getModelForClass(Vault,{
+export const VaultModel = getModelForClass(Vault,{
     schemaOptions:{
         timestamps:true,
     }
